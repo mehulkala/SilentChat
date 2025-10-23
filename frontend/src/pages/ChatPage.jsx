@@ -11,9 +11,9 @@ function ChatPage() {
   const {activeTab, selectedUser} = useChatStore();
 
   return (
-    <div className='relative w-full max-w-6xl h-[800px]'>
+    <div className='relative w-full h-[800px]'>
       {/* LEFT SIDE */}
-      <div className="w-80 bg-slate-800/50 backdrop-blur-sm flex flex-col">
+      <div className="w-80 h-full bg-slate-800/50 backdrop-blur-sm flex flex-col">
         <ProfileHeader />
         <ActiveTabSwitch />
 
