@@ -23,7 +23,8 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.10.1",
     "resend": "^6.1.2",
-    "silentchat": "file:.."
+    "silentchat": "file:..",
+    "socket.io": "^4.8.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"

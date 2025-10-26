@@ -1,17 +1,17 @@
-import React, { use } from 'react'
-import { useChatStore } from '../store/useChatStore.js';
-import ProfileHeader from '../components/ProfileHeader.jsx';
-import ActiveTabSwitch from '../components/ActiveTabSwitch.jsx';
-import ChatsList from '../components/ChatsList.jsx';
-import ContactList from '../components/ContactList.jsx';
-import ChatContainer from '../components/ChatContainer.jsx';
-import NoConversation from '../components/NoConversation.jsx';
+import React, { use } from "react"
+import { useChatStore } from "../store/useChatStore.js";
+import ProfileHeader from "../components/ProfileHeader.jsx";
+import ActiveTabSwitch from "../components/ActiveTabSwitch.jsx";
+import ChatsList from "../components/ChatsList.jsx";
+import ContactList from "../components/ContactList.jsx";
+import ChatContainer from "../components/ChatContainer.jsx";
+import NoConversation from "../components/NoConversation.jsx";
 
 function ChatPage() {
   const {activeTab, selectedUser} = useChatStore();
 
   return (
-    <div className='relative w-full h-[800px] flex'>
+    <div className="relative w-full h-[800px] flex">
       {/* LEFT SIDE */}
       <div className="w-80 h-full bg-slate-800/50 backdrop-blur-sm flex flex-col">
         <ProfileHeader />

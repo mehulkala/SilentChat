@@ -1,5 +1,5 @@
-import React from 'react'
-import {LoaderIcon} from 'lucide-react'
+import React from "react"
+import {LoaderIcon} from "lucide-react"
 
 function PageLoader() {
   return (

@@ -1,9 +1,9 @@
-import React from 'react'
-import { useState } from 'react'
-import { useAuthStore } from '../store/useAuthStore'
-import BorderAnimatedContainer from '../components/BorderAnimatedContainer.jsx'
+import React from "react"
+import { useState } from "react"
+import { useAuthStore } from "../store/useAuthStore"
+import BorderAnimatedContainer from "../components/BorderAnimatedContainer.jsx"
 import { MessageCircleIcon, LockIcon, MailIcon, UserIcon, LoaderIcon} from "lucide-react"
-import { Link } from 'react-router'
+import { Link } from "react-router"
 
 function LoginPage() {
   const [formData, setFormData] = useState({email: "", password: ""})
@@ -76,7 +76,7 @@ function LoginPage() {
 
                 <div className="mt-6 text-center">
                   <Link to="/signup" className="auth-link">
-                    Don't have an account? Sign Up
+                    Don"t have an account? Sign Up
                   </Link>
                 </div>
               </div>
