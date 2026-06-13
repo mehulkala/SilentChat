@@ -3,6 +3,9 @@
 
 A modern real-time chat application designed for seamless and secure communication. SilentChat enables users to connect instantly through a clean and responsive interface while providing a smooth messaging experience.
 
+LIVE DEMO: [Website demo link](https://silentchat-9hz2.onrender.com)
+
+
 ## 🚀 Features
 
 - Real-time messaging
